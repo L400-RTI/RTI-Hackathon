@@ -1,7 +1,7 @@
 # RTI-Hackaton
 # Hack Story: “Monsoon Rush: The Storm, the Signal, and the Last‑Mile”
 
-Fabrikam is a global lifestyle brand that designs and manufactures outerwear and athleisure. They sell athleisure through their retail stores. As the monsoon intensifies , some celebrities athlete post surprise video wearing Fabrikam's apparel. Instantly, clickstream traffic explodes, add‑to‑carts spike, and store associates report low visibility into real-time operations during this rush hours.
+Fabrikam is a global lifestyle brand that designs and manufactures outerwear and athleisure. They sell athleisure through their retail stores. As the monsoon intensifies , some celebrity athleted post surprise video wearing Fabrikam's apparel. Instantly, clickstream traffic explodes, add‑to‑carts spike, and store associates report low visibility into real-time operations during this rush hours.
 
 At the same time:
 	
