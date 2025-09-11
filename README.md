@@ -2,8 +2,10 @@
 # Hack Story: “Monsoon Rush: The Storm, the Signal, and the Last‑Mile”
 
 Fabrikam is a global lifestyle brand that designs and manufactures outerwear and athleisure. They sell athleisure through their retail stores. As the monsoon intensifies , some celebrities athlete post surprise video wearing Fabrikam's apparel. Instantly, clickstream traffic explodes, add‑to‑carts spike, and store associates report low visibility into real-time operations during this rush hours.
+
 At the same time:
-	• A tropical depression shifts course, threatening ports and highway corridors.
+	
+ 	• A tropical depression shifts course, threatening all delivery methods.
 	• A key fabric supplier reports a loom vibration anomaly; quality telemetry shows rising defect probability.
 	• Carriers update ETAs showing delays of orders.
 
