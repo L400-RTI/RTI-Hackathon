@@ -31,7 +31,10 @@ It gives you a single place for data in motion (Real‑Time Hub + Eventstream) p
 	• Weather: Temperature, Humidity, Wind Speed, Precipitation, etc.
 	
 ## Get started
-	• Act 1 : Gather data
-	• Act 2 : Take control
-	• Act 3 : Every click counts
-	• Act 4 : Make Fabrikam future ready
+[Act 1 : Gather data - from disparate sources and unify](https://github.com/L400-RTI/RTI-Hackaton/tree/main/Act%201%20-%20Gather%20data)
+
+[Act 2 : Take control - of your business and save reputation](https://github.com/L400-RTI/RTI-Hackaton/tree/main/Act%202%20-%20Take%20control)
+
+[Act 3 : Every click counts - to plan demand and growth](https://github.com/L400-RTI/RTI-Hackaton/tree/main/Act%203%20-%20Every%20click%20counts)
+
+[Act 4 : Make Fabrikam future ready - using AI](https://github.com/L400-RTI/RTI-Hackaton/tree/main/Act%204%20-%20Make%20Fabrikam%20future%20ready)
