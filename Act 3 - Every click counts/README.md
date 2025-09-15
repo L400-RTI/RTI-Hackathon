@@ -1,7 +1,7 @@
 # Every click counts
 
 ## Backstory
-Thank you for helping Fabrikam save its reputation in the last Act. Now, we are ready to look at the demand, and adjust our supply chain accordingly. Fabrikam is getting a huge number of orders due to sudden surge in demand after some celebrities posted about our products on their social media handles. We want to capture clickstream data through various sources, analyze it and take actions to maximize our revenue.
+Thank you for helping Fabrikam take control of it's issues in the last Act. Now, we are ready to look at the demand, and adjust our supply chain accordingly. Fabrikam is getting a huge number of orders due to sudden surge in demand after some celebrities posted about our products on their social media handles. We want to capture clickstream data through various sources, analyze it and take actions to maximize our revenue.
 
 ## Setup
 For running this Act, 
@@ -13,9 +13,15 @@ For running this Act,
 
 ## Challenges 
 
-## Filter Clickstream data for US traffic only and aggregate total clicks by product and website for 10 minutes.
+## Create schema registry for Clickstream data using below details
+    Hint: Use Event Schema set and create columns as below
+    event_id string, timestamp string, event_type string, user_id string, session_id string, sku string, country string,
+    country_code string, client_info dynamic, click_path dynamic, referral_source_type string, referral_platform string, product_id string
+    Hint: Make sure to associate the schema set to Eventstream custom endpoint
+
+## Filter Clickstream data for US traffic only.
+    Hint:  Make sure to associate Schema to the stream.
     Hint: Use filter transformation to filter origin country
-    Hint: Use aggregate transformation
 
 ## Increase the cost of top 3 most demanded products of all time by 15% each day
     Hint: Use the power of KQL to find top 3 products
