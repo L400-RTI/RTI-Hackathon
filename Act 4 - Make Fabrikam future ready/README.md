@@ -17,6 +17,11 @@ Find out the following details from AgentS
 1. What is the most popular product?
 2. Which website redirected the highest traffic?
 
+
+    Hint: Be sure to provide AI instructions to the Agent.
+
+<img src="../Assets/Agent Answers.png" alt="Alt text" width="1000"/>
+
 ## Abnormal vibrations are causing high defects. Setup AI Anomaly Detector
     Hint: Use vibration column by siteId and timestamp
 

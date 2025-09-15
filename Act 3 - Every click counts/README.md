@@ -13,22 +13,25 @@ For running this Act,
 
 ## Challenges 
 
+<!--
 ## Create schema registry for Clickstream data using below details
     Hint: Use Event Schema set and create columns as below
     event_id string, timestamp string, event_type string, user_id string, session_id string, sku string, country string,
     country_code string, client_info dynamic, click_path dynamic, referral_source_type string, referral_platform string, product_id string
     Hint: Make sure to associate the schema set to Eventstream custom endpoint
+-->
 
-## Filter Clickstream data for US traffic only.
-    Hint:  Make sure to associate Schema to the stream.
+## 1.Filter Clickstream data for US traffic only
+<!-- Hint:  Make sure to associate Schema to the stream. -->
     Hint: Use filter transformation to filter origin country
+    Hint: Aggregate data from every 10 minutes with number of impressions/clicks per product, event_type, user_id, Session_id, sku, country, country_code, referral_source_type, referral_platform and Product_id (all columns)
 
-## Increase the cost of top 3 most demanded products of all time by 15% each day
-    Hint: Use the power of KQL to find top 3 products
+## 2.Increase the cost of top 3 most demanded products of all time by 15% each day
+    Hint: Use the power of KQL to find top 3 products using SKU
     Hint: You can update tables in KQL
     Hint: Setup everyday pipeline to run updates
 
-## Create a “Growth Opportunity” Report
+## 3. Create a “Growth Opportunity” Report
 1. Create a Power BI report that shows the following information
 2. Filters – Time, and Products
 3. Card Visuals – In-demand product, Website with Highest traffic
