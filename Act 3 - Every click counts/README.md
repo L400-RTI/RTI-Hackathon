@@ -24,7 +24,7 @@ For running this Act,
 ## 1.Filter Clickstream data for US traffic only
 <!-- Hint:  Make sure to associate Schema to the stream. -->
     Hint: Use filter transformation to filter origin country
-    Hint: Aggregate data from every 10 minutes with number of impressions/clicks per product, event_type, user_id, Session_id, sku, country, country_code, referral_source_type, referral_platform and Product_id (all columns)
+    Hint: Group by data for every 10 minutes per product, event_type, sku, country, country_code, referral_source_type, referral_platform and Product_id 
 
 ## 2.Increase the cost of top 3 most demanded products of all time by 15% each day
     Hint: Use the power of KQL to find top 3 products using SKU
@@ -37,3 +37,5 @@ For running this Act,
 3. Card Visuals – In-demand product, Website with Highest traffic
 4. Time charts - Product clicks over time, Products bought over time
 5. Pie charts – Website traffic distribution, Device traffic distribution
+
+    Hint: Create a new black Power Bi report and build all the visuals there.

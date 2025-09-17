@@ -17,8 +17,9 @@ For running this Act,
 ## 2. Stop the shipping providers  and production line that is carrying the highest defect probability product for every 1 hour
     Hint : Use a combination of the following steps to achieve this
     1. Join between product, operators, shipment, shipping provider, and production
-    2. Create Alert on the query with details of  OrderNumber , ProductName, ShippingProvider , PhoneNumber of the provider, Operator Name and phone Number
-    3. Activator limiting to 5 details? Try combining OrderNumber and ProductName in KQL query into one column [OrderNumber - ProductName]
+    2. Create 1 Alert  to stop shipping provider with details of  OrderNumber , ProductName, ShippingProvider , PhoneNumber of the provider, HQaddress
+    3. Create one more Alert to stop production line with details of ProductId, ProductName, OperatorId, OperatorName, PhoneNumber of the operator, AssetId, BatchId
+    4. Activator limiting to 5 details? Try combining ProductId,ProductName and OperatorId,Operatorname in KQL query into one column Ex: [OperatorId - OperatorName]
 
 ## 3. Create an operational dashboard for Fabrikam management
 1. Show  all operators details.
