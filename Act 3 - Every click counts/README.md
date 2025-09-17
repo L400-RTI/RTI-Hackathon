@@ -39,3 +39,6 @@ For running this Act,
 5. Pie charts – Website traffic distribution, Device traffic distribution
 
     Hint: Create a new black Power Bi report and build all the visuals there.
+    Hint: You`ll need to create measures for In demand Products and Higest Traffic
+Here is an example of how the "Growth Opportunity" Report looks like
+
