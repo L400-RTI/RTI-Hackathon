@@ -28,13 +28,13 @@ For running this Act,
 
 2. Correlation between defective and non-defective products in 1 hour bins
 
-    Hint: Use copilot to get this query
-    Hint: Use the anomaly flag column to see the defection & non-defective products and use that in a line chart
+    Hint: Use the anomaly flag column you defined in the SQL Code Operator before, to see the defection & non-defective products and use that in a line chart
 
-3. Current shipment status (count of orders by status). 
-4. Map showing shipment count by destination
+4. Current shipment status (count of orders by status). 
+5. Map showing shipment count by destination
 
 * Below is an example of an operational dashboard for Fabrikam management
 
 <img src="../Assets/OperationalDashboard_Fabrikam.png" alt="Alt text" width="1000"/>
+
 
