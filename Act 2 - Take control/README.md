@@ -12,7 +12,7 @@ For running this Act,
 
 ## 1. Get Latest Shipping details
     Hint: Use update policy to parse xml into silver table
-    Hint: Use Materialized View to get latest details for each productId
+    Hint: Use Materialized View to get latest status details for each OrderNumber
 
 ## 2. Stop the shipping providers  and production line that is carrying the highest defect probability product for every 1 hour
     Hint : Use a combination of the following steps to achieve this
@@ -34,4 +34,5 @@ For running this Act,
 4. Map showing shipment count by destination
 
 * Below is an example of an operational dashboard for Fabrikam management
+
 <img src="../Assets/OperationalDashboard_Fabrikam.png" alt="Alt text" width="1000"/>
