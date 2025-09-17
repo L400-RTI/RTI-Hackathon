@@ -14,9 +14,9 @@ For running this Act,
 ## Challenges 
 
 ### 1. Enrich Manufacturing data with AnomalyFlag column and datatype changes
-    Hint: Keep all fields excepts the last 3: EventProcessedUtcTime, PartitionId, EventEnqueuedUtcTime
     Hint: Use SQL transformation on DefectProbability  column in stream – DefectProbability>0.1 = Anomaly.
     Hint: SQL Operator by default works only if there are no other operators in this stream. Can a DerivedStream help?
+    Hint: Keep all fields excepts the last 3: EventProcessedUtcTime, PartitionId, EventEnqueuedUtcTime
 
 ### 2. Ingest Manufacturing data
 Assets, Operators, and sites are static data you need refer from Lakehouse
@@ -39,4 +39,5 @@ Both of these static data is present in a SQL database
 ## 5. Make weather data available to all Fabrikam distributors and setup hourly alerts for US region
     Hint: Create derived stream
     Hint: Use Activator alerts on temperature
+
 
