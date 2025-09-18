@@ -22,7 +22,7 @@ Find out the following details from AgentS
 
 <img src="../Assets/Agent Answers.png" alt="Alt text" width="1000"/>
 
-## Setup forecast of defect probability on temperature 
+## Setup forecast of on average temperature for defective products. We want to forecast the temperature. 
     Hint: Use  forecasting capability of KQL
 
 ## Create Map in Fabric with Heatmap showing delivery details
@@ -30,3 +30,4 @@ Find out the following details from AgentS
     Hint: Project longitude and latitude from shipping table
     Hint: Make sure to change map from Bubble to Heatmap
 <img src="../Assets/Maps.png" alt="Alt text" width="1000"/>
+
