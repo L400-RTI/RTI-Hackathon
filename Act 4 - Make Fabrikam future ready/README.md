@@ -25,9 +25,4 @@ Find out the following details from AgentS
 ## Setup forecast of on average temperature for defective products. We want to forecast the temperature. 
     Hint: Use  forecasting capability of KQL
 
-## Create Map in Fabric with Heatmap showing delivery details
-    Hint: Make a new tab in KQL queryset attached to your KQL DB
-    Hint: Project longitude and latitude from shipping table
-    Hint: Make sure to change map from Bubble to Heatmap
-<img src="../Assets/Maps.png" alt="Alt text" width="1000"/>
 
