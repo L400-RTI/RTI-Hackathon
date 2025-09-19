@@ -1,4 +1,4 @@
-# RTI-Hackaton
+<img width="2665" height="303" alt="image" src="https://github.com/user-attachments/assets/0d962d97-6940-438b-86cc-72cb834ee341" /># RTI-Hackaton
 # The Fabrikam Frenzy
 
 Fabrikam is a global lifestyle brand that designs and manufactures outerwear and athleisure. They sell athleisure through their retail stores. As the monsoon intensifies , some celebrity athletes post surprise video wearing Fabrikam's apparel. Instantly, clickstream traffic explodes, add to carts spike, and store associates report low visibility into real-time operations during these rush hours.
@@ -18,17 +18,19 @@ Fuse high‑velocity signals from manufacturing, clickstream, weather, and logis
 It gives you a single place for data in motion (Real‑Time Hub + Eventstream) plus analyze/visualize/act primitives (Eventhouse/KQL, Real‑Time Dashboards, and Activator) so teams can build end‑to‑end, from sensor to business outcome, on one SaaS platform.
 
 ## What “success” looks like (business KPIs to aim for)
-	• You are able to gather data from disparate sources and fuse them together to get a holistic view of operations.
-	• Stop the shipping provider that is carrying the highest defect probability product.
+	• Gather data from disparate sources and fuse them together to get a holistic view of operations.
+	• Stop the shipping provider that is carrying the highest defect probability product. Stop the manufacturing process from producing the defected product.
 	• Create an Operational dashboard that shows real-time status of operations.
- 	• You are able to pinpoint which apparel has highest demand using clickstream data.
-	• You are able to setup Fabrikam for future success by enabling Agents and AI Anomaly detection.
+ 	• Pinpoint which apparel has highest demand using clickstream data.
+	• Setup Fabrikam for future success by enabling Agents and AI Anomaly detection.
 
 ## The data you’ll have (live and simulated)
-	• Manufacturing telemetry (per line/machine): assets, operators, sites, and production telemetry etc.
-	• Shipment/Logistics: carrier, order, origin and destination details, and status updates etc.
-	• E‑commerce clickstream: page views, website, device, status etc.
-	• Weather: Temperature, Humidity, Wind Speed, Precipitation, etc.
+	• Manufacturing telemetry (per line/machine). This will be generated from the 'Manufacturing Simulator' notebook and will stream into a custom endpoint of the Eventstream you create.
+	• Static data like assets, operators, sites. This will be generated from the 'Manufacturing Simulator' notebook and will be saved into the Lakehouse you create.
+	• Shipment/Logistics: carrier, order, origin and destination details, and status updates etc. This will be generated from the 'Shipping Simualtor' notebook and will save the data into an Azure Storage Account.
+	• E‑commerce clickstream: page views, website, device, status etc. This will be generated from the 'Clickstream Simulator' notebook and will be stream the data into a custom endpoint of the Eventstream you create
+ 	• Products data. This will be in an Azure SQL DB products table.
+	• Weather: Temperature, Humidity, Wind Speed, Precipitation, etc. 
 	
 ## Get started
 [Act 1 : Gather data - from disparate sources and unify](https://github.com/L400-RTI/RTI-Hackaton/tree/main/Act%201%20-%20Gather%20data)
