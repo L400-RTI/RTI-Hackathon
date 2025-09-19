@@ -21,7 +21,7 @@ For running this Act,
     Hint: Make sure to associate the schema set to Eventstream custom endpoint
 -->
 
-## 1.Filter Clickstream data for US traffic only
+## 1.Filter Clickstream data for US traffic only and aggregate total clicks by product and website for 10 minutes
 <!-- Hint:  Make sure to associate Schema to the stream. -->
     Hint: Use filter transformation to filter origin country
     Hint: Group by data for every 10 minutes per product, event_type, sku, country, country_code, referral_source_type, referral_platform and Product_id 
@@ -42,4 +42,5 @@ For running this Act,
     Hint: You`ll need to create measures for In demand Products and Higest Traffic
 Here is an example of how the "Growth Opportunity" Report looks like
 <img src="../Assets/growthOpportunityReport.png" alt="Alt text" width="1000"/>
+
 
