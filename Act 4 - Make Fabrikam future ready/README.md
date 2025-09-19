@@ -22,7 +22,8 @@ Find out the following details from AgentS
 
 <img src="../Assets/Agent Answers.png" alt="Alt text" width="1000"/>
 
-## Setup forecast of on average temperature for defective products. We want to forecast the temperature. 
+# Setup forecast of on average temperature for defective products. We want to forecast the temperature. 
     Hint: Use  forecasting capability of KQL
+
 
 
