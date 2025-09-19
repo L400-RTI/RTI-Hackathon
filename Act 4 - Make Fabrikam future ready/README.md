@@ -25,5 +25,18 @@ Find out the following details from AgentS
 # Setup forecast of on average temperature for defective products. We want to forecast the temperature. 
     Hint: Use  forecasting capability of KQL
 
+# Congratulations! You saved Fabrikam! 
+Fabrikam has now all the following information that immensely helps reduce operational risks and increase revenue. 
+Let`s recap what you`ve done:
+1. You`ve setup a robust data estate.
+2.You`ve stopped defective products from shipping, stopping customer dissatisfaction.
+3. You`ve created proactive operator alerts to take action on defective production lines.
+4. You`ve Unified operational view of production to management.
+5. You`ve found the most demanded products and created a growth opportunity report to help Fabrikam plan for demand & supply
+6. You`ve created Agents to help business find most happening products to help them market better, adjust the cost and stock these better.
+7. You`ve setup forecasting for defective products.
+8. You`ve enabled the entire organization to have access to weather data helping them plan their shipping precisely.
+
+
 
 
