@@ -1,4 +1,3 @@
-<img width="2665" height="303" alt="image" src="https://github.com/user-attachments/assets/0d962d97-6940-438b-86cc-72cb834ee341" /># RTI-Hackaton
 # The Fabrikam Frenzy
 
 Fabrikam is a global lifestyle brand that designs and manufactures outerwear and athleisure. They sell athleisure through their retail stores. As the monsoon intensifies , some celebrity athletes post surprise video wearing Fabrikam's apparel. Instantly, clickstream traffic explodes, add to carts spike, and store associates report low visibility into real-time operations during these rush hours.
