@@ -1,7 +1,7 @@
 # Make Fabrikam future ready
 
 ## Backstory
-Now that you have setup Fabrikam for success, next step is to make it future ready so that Fabrikam is outperforming its competitors in the fashion industry. We want to forecast defect probability so that production can be adjusted accordingly. We also want to setup anomaly detection so that any abnormal vibration can be detected early and necessary actions can be taken to avoid defective products. Agents will help Fabrikam's management to get real-time insights on production and shipment.
+Now that you have setup Fabrikam for success, next step is to make it future ready so that Fabrikam is outperforming its competitors in the fashion industry. We want to forecast defect probability so that production can be adjusted accordingly. Agents will help Fabrikam's management to get real-time insights on production and shipment.
 
 ## Setup
 For running this Act, 
@@ -36,6 +36,7 @@ Let`s recap what you`ve done:
 6. You`ve created Agents to help business find most happening products to help them market better, adjust the cost and stock these better.
 7. You`ve setup forecasting for defective products.
 8. You`ve enabled the entire organization to have access to weather data helping them plan their shipping precisely.
+
 
 
 
