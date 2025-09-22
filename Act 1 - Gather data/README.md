@@ -33,13 +33,14 @@ Shipping provider details from GitHub assets
 
     Hint: Use Local file ingestion method
 
-## 4. Ingest Customer and Products data 
-Both of these static data is present in a SQL database
+## 4. Ingest Products data 
+This static data is present in a SQL database
     Hint: Use Azure SQL CDC connector
 
 ## 5. Make weather data available to all Fabrikam distributors and setup hourly alerts for US region
     Hint: Create derived stream
     Hint: Use Activator alerts on temperature
+
 
 
 
