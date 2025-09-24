@@ -33,8 +33,9 @@ For running this Act,
 4. Current shipment status (count of orders by status). 
 5. Map showing shipment count by destination
 
-* Below is an example of an operational dashboard for Fabrikam management
+* Below is just an example of an operational dashboard for Fabrikam management, feel free to make this realtime dashboard your own.
 
 <img src="../Assets/OperationalDashboard_Fabrikam.png" alt="Alt text" width="1000"/>
+
 
 
