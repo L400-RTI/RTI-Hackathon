@@ -16,7 +16,6 @@ For running this Act,
 ### 1. Enrich Manufacturing data with AnomalyFlag column and datatype changes
     Hint: Use SQL transformation on DefectProbability  column in stream – DefectProbability>0.1 = Anomaly.
     Hint: SQL Operator by default works only if there are no other operators in this stream. 
-    Hint: Use Eventstream DeltaFlow Analytics-ready events option to readily consume CDC data.
 
 ### 2. Ingest Manufacturing data
 Assets, Operators, and sites are static data you need refer from Lakehouse.
@@ -34,7 +33,8 @@ Shipping provider details from GitHub assets, there is a Shipping_Provider_Detai
 
 ## 4. Ingest Products data 
 This static data is present in a SQL database
-    Hint: Use Azure SQL CDC connector with DeltaFlow option
+    Hint: Use Azure SQL CDC connector 
+    Hint: Use Eventstream DeltaFlow Analytics-ready events option to readily consume CDC data.
 
 ## 5. Make weather data available to all Fabrikam distributors and setup hourly alerts for US region
     Hint: Create derived stream to publish data
