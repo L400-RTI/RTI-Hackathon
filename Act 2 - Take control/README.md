@@ -17,20 +17,21 @@ For running this Act,
 ## 2. Stop the shipping providers  and production line that is carrying the highest defect probability product for every 1 hour
     Hint : Use a combination of the following steps to achieve this
     1. Join between product, operators, shipment, shipping provider, and production
-    2. Create 1 Alert  to stop shipping provider with details of  OrderNumber , ProductName, ShippingProvider , PhoneNumber of the provider, HQaddress
-    3. Create one more Alert to stop production line with details of ProductId, ProductName, OperatorId, OperatorName, PhoneNumber of the operator, AssetId, BatchId
-    4. Activator limiting to 5 details? Try combining ProductId,ProductName and OperatorId,Operatorname in KQL query into one column Ex: [OperatorId - OperatorName]
+    2. Shipping provider name has space so try to trim it
+    3. Create 1 Alert to stop shipping provider with details of  OrderNumber , ProductName, ShippingProvider , PhoneNumber of the provider, HQaddress
+    4. Create one more Alert to stop production line with details of ProductId, ProductName, OperatorId, OperatorName, PhoneNumber of the operator, AssetId, BatchId
 
 ## 3. Create an operational dashboard for Fabrikam management
-1. Show  all operators details.
+1. Show all operators details.
     
-    Hint: Use copilot dashboard creation from Real-Time Hub
+    Hint: Use copilot dashboard creation from Real-Time Hub 
 
 2. Correlation between defective and non-defective products in 1 hour bins
 
-    Hint: Use the anomaly flag column you defined in the SQL Code Operator before, to see the defection & non-defective products and use that in a line chart
+    Hint: Use the anomaly flag column you defined in the SQL Code Operator before, to see the defection & non-defective products and use that in a line chart. You can use copilot to generate KQL queries and visuals to be pinned to dashboard
 
-4. Current shipment status (count of orders by status). 
+4. Current shipment status (count of orders by status)
+   
 5. Map showing shipment count by destination
 
 * Below is just an example of an operational dashboard for Fabrikam management, feel free to make this realtime dashboard your own.
