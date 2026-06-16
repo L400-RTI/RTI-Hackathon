@@ -1,4 +1,4 @@
-Drop table [dbo].[products]
+DROP TABLE IF EXISTS [dbo].[products]
 
 -- Step 1: Create the Products table
 CREATE TABLE Products (
@@ -36,5 +36,11 @@ INSERT INTO Products (ProductId, ProductName, SKU, Brand, Category, UnitCost) VA
 
 -- Enable Database for CDC
 EXEC sys.sp_cdc_enable_db;
+
+-- Enable Table for CDC
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name = N'Products',
+@role_name = NULL;
 
 --you will need to reinsert the product data after configuring the CDC
